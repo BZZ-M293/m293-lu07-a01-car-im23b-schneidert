@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Fahrzeug-Konfigurator</title>
+    <meta charset="UTF-8">
+    <title>Fahrzeug-Konfigurator</title>
 
 </head>
 <body>
 
 <h1>Fahrzeug-Konfigurator</h1>
-
+<form action="https://it.bzz.ch/demo/formdata/index.php" method="get">
+    <label> Fahrzeugmodell:
+        <select name="Fahrzeugmodell" size="5">
+            <option>Tesla Model S</option>
+            <option>Tesla Model 3</option>
+            <option>Tesla Model X</option>
+            <option>Tesla Model Y</option>
+            <option>Mercedes Model 1</option>
+            <option>Mercedes Model 2</option>
+            <option>Volvo Model 1</option>
+            <option>Volvo Model 2</option>
+            <option>Volvo Model 3</option>
+            <option>Volvo Model 4</option>
+            <option>Volvo Model 5</option>
+            <option>Hyundai IONIQ 5</option>
+            <option>Hyundai i10</option>
+            <option>Hyundai New i20</option>
+            <option>Hyundai BAYON</option>
+        </select>
+    </label>
+    <input type="Radio" id="Rot" name="Farbe" value="Rot">
+    <label for="Rot"> Rot</label>
+    <input type="radio" id="Grün" name="Farbe" value="Grün">
+    <label for="Grün"> Grün</label>
+    <input type="radio" id="Schwarz" name="Farbe" value="Schwarz">
+    <label for="Schwarz"> Schwarz</label>
+    <button type="submit">Submit</button>
+    <button type="reset">reset</button>
+</form>
 
 </body>
 </html>
